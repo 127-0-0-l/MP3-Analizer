@@ -17,32 +17,7 @@
         </Grid.RowDefinitions>
 
         <Rectangle x:Name="colorRectangle" Fill="#fff" Visibility="Hidden"/>
-
-        <Button x:Name="btnOpenFile"
-                VerticalAlignment="Center"
-                HorizontalAlignment="Left"
-                Width="100"
-                Height="30"
-                Margin="10,0,0,0"
-                Content="open file"
-                Click="btnOpenFile_Click"/>
-        <Button x:Name="btnStart"
-                VerticalAlignment="Center"
-                HorizontalAlignment="Left"
-                Width="100"
-                Height="30"
-                Margin="120,0,0,0"
-                Content="start"
-                Click="btnStart_Click"/>
-        <Button x:Name="btnPause"
-                VerticalAlignment="Center"
-                HorizontalAlignment="Left"
-                Width="100"
-                Height="30"
-                Margin="230,0,0,0"
-                Content="pause"
-                Click="btnPause_Click"/>
-
+        
         <ScrollViewer HorizontalScrollBarVisibility="Visible"
                       VerticalScrollBarVisibility="Disabled"
                       Grid.Row="1">
